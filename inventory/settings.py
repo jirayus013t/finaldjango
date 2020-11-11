@@ -82,17 +82,27 @@ WSGI_APPLICATION = 'inventory.wsgi.application'
 #    }
 #}
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'stockdb',
+#        'USER' : 'root',
+#        'PASSWORD' : '',
+#        'HOST' : 'localhost',
+#        'port' : '3306',
+#    }
+#}
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'stockdb',
-        'USER' : 'root',
-        'PASSWORD' : '',
-        'HOST' : 'localhost',
+        'NAME': 'heroku_a537fed1cf30354',
+        'USER' : 'be3bf98e0ddc42',
+        'PASSWORD' : 'cf2be491',
+        'HOST' : 'us-cdbr-east-02.cleardb.com',
         'port' : '3306',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
